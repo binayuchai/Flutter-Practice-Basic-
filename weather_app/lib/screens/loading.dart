@@ -16,7 +16,7 @@ class SelectLocation extends StatefulWidget {
 }
 
 class _SelectLocationState extends State<SelectLocation> {
-  String apiKey = "083ee735a9fe92e60b1e7f092a495970";
+  String apiKey = "";
   TextEditingController _searchController = TextEditingController();
   String _selectedLocation = '';
   String _temperature = '';
