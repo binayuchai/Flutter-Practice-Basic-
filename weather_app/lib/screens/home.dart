@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ClipPath(
                     clipper:OvalBottomBorderClipper(),
                     child:Container(
-                      color:Colors.indigo,
+                      color:Colors.lightBlue,
                       padding: EdgeInsets.all(12),
                       child:Column(
                         children: [
@@ -215,7 +215,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           width:120,
                           height:150,
                           child: Card(
-                            color:Colors.indigo,
+                            color:Colors.lightBlue,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(15.0),
                             ),
@@ -234,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       ),
                                       child:const Icon(
                                         FontAwesomeIcons.eye,
-                                        color:Colors.indigo,
+                                        color:Colors.lightBlue,
                                       ),
                                     )
                                   ),
@@ -273,7 +273,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           width:120,
                           height:150,
                           child: Card(
-                              color:Colors.indigo,
+                              color:Colors.lightBlue,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0),
                               ),
@@ -292,7 +292,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           ),
                                           child:const Icon(
                                             FontAwesomeIcons.droplet,
-                                            color:Colors.indigo,
+                                            color:Colors.lightBlue,
                                           ),
                                         )
                                     ),
@@ -333,7 +333,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           height:150,
 
                           child:Card(
-                              color:Colors.indigo,
+                              color:Colors.lightBlue,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15.0),
                               ),
@@ -352,7 +352,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           ),
                                           child:const Icon(
                                             FontAwesomeIcons.wind,
-                                            color:Colors.indigo,
+                                            color:Colors.lightBlue,
                                           ),
                                         )
                                     ),
